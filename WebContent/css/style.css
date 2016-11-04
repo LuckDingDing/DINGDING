@@ -1,0 +1,115 @@
+/*登录注册页面的css*/
+
+* {
+	margin:0 ;
+	padding:0 ;
+	
+	
+}
+a{
+	text-decoration:none ;
+	color:black ;
+}
+body{
+	background: url("../photo/LoginMage.jpg") no-repeat;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*网页头开始*/
+#header {
+	width:100% ;
+	height:30px ;
+	background:black;
+	line-height:50px ;
+	
+
+}
+#header_loginLine{
+	width:100%;
+	height:35px;
+	line-height: 35px;
+	text-align: right;
+
+}
+#rightt {
+	float:right ;
+	margin-right:10px ;
+	
+	
+}
+
+/*网页头结束*/
+
+
+#wai {
+	width:388px;
+	height:350px;
+	border: 1px solid transparent;
+	background: rgba(0,0,0,.4);	
+	margin-top:110px ;
+	position:relative ;
+	margin-left:58% ;
+	
+}
+#wai_head {
+	width:300px ;
+	height:70px ;
+	line-height:70px ;
+	text-align:center ;
+	margin-left:45px;
+	font-size:22px ;
+	color: white;
+}
+
+#login_body{
+	width:400px;
+	height:250px;
+	margin-top: 20px;
+	
+}
+#shouji {
+	
+	height:300px ;
+	position:absolute ;
+	display:none;
+}
+#zhanghu {
+	
+	height:300px ;
+	
+	position:absolute ;
+	display:none;
+}
+.inputt {
+	width:298px ;
+	height:48px ;
+	border:1px solid #aaa ;
+	font-size:22px ;
+	color:#aaa ;
+	margin-left:45px;
+	margin-top:10px ;
+	margin-bottom:20px ;
+	
+}
+#aa {
+	width:300px ;
+	height:50px ;
+	border:0 ;
+	font-size:22px ;
+	color:white ;
+	background:#333 ;
+	margin-top:0px ;
+	margin-left: 45px;
+	
+}
+#bb {
+	margin-top:10px ;
+	margin-bottom:12px ;
+	color:#999 ;
+}
+.hide {
+	visibility:hidden ;
+}
+

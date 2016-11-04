@@ -1,0 +1,42 @@
+* {
+	margin:0 ;
+	padding:0 ;
+	
+	
+}
+ul li{
+	float:left;
+	list-style: none;
+	margin-left: 10px;
+	padding-top:18px;
+	font-size:12px;
+	color:gray;
+	position: relative;
+	left: 298px;
+	
+}
+a{
+	text-decoration:none ;
+	color:white;
+}
+img{
+	width:100%;
+	height:529px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;	
+}
+#main_body{
+	width:100%;
+	height:529px;
+	
+}
+#main_lianjie{
+	position: absolute;
+	right: 120px;
+	margin-top: 20px;
+	font-size: 12px;
+	color:gray;
+}
+
